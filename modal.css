@@ -405,7 +405,7 @@ input[data-error]::after {
   font-size: 16px;
 }
 .hero-section {
-  min-height: 93vh;
+  min-height: 6vh;
   border-radius: 10px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -414,7 +414,7 @@ input[data-error]::after {
   margin-bottom: 10px;
 }
 .hero-content {
-  padding: 51px 67px;
+  padding: 41px 30px;
   grid-column: span 4;
   background: #232323;
   color: #fff;
@@ -481,6 +481,10 @@ footer {
 .error-message {
   color: #fe142f;
   font-size: 14px;
+}
+
+#confirmMessage {
+  height:250px;
 }
 
 @media screen and (max-width: 800px) {
